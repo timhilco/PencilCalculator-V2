@@ -1,0 +1,46 @@
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"EnterProgram"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: W1"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Stack is empty"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: CLASSNAME(41) -> W1"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: :"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"VisitTerminal <> Ignoring Terminal:  COLON"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Stack is empty"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: COLON(26) -> :"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: a"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Stack is empty"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: ID(42) -> a"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter ExitWorksheetVariable: W1:a"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter ExitWorksheetVariable: Statement: - Statement: W1:a --\nExpression: 20 \nStatement(my) Channel: chan string -> 0xc000032420 \nComponent Channels ->\nSubscriber Channels ->\nW1:e -> chan string:0xc0000325a0 \nW1:f -> chan string:0xc000032600 \nW1:c -> chan string:0xc0000324e0 \nW1:d -> chan string:0xc000032540 \nVariables ->\nResult: = Integer --> 20 \n"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter ExitWorksheetVariable: Result : Integer --> 20"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit ExitWorksheetVariable: W1:a"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: -"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"VisitTerminal <> Binary Operator: MINUS(17) -> -"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"0:Integer --> 20"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"1:Operation --> MINUS"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: MINUS(17) -> -"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: W1"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"0:Integer --> 20"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"1:Operation --> MINUS"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: CLASSNAME(41) -> W1"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: :"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"VisitTerminal <> Ignoring Terminal:  COLON"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"0:Integer --> 20"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"1:Operation --> MINUS"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: COLON(26) -> :"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter VisitTerminal: b"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"0:Integer --> 20"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"1:Operation --> MINUS"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit VisitTerminal: ID(42) -> b"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter ExitWorksheetVariable: W1:b"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter ExitWorksheetVariable: Statement: - Statement: W1:b --\nExpression: 10 \nStatement(my) Channel: chan string -> 0xc000032480 \nComponent Channels ->\nSubscriber Channels ->\nW1:c -> chan string:0xc0000324e0 \nW1:d -> chan string:0xc000032540 \nW1:e -> chan string:0xc0000325a0 \nW1:f -> chan string:0xc000032600 \nVariables ->\nResult: = Integer --> 10 \n"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Enter ExitWorksheetVariable: Result : Integer --> 10"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"Exit ExitWorksheetVariable: W1:b"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":" Enter ExitBinaryArithmeticCalculator"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"0:Integer --> 10"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":" Exit ExitBinaryArithmeticCalculator"}
+{"level":"debug","time":"2022-09-20T21:57:48-04:00","message":"------------------ Exit Hilco Listener -------------------------"}
+----------------"}
+"}
+{"level":"debug","time":"2022-09-19T15:49:08-04:00","message":" Exit ExitBinaryArithmeticCalculator"}
+{"level":"debug","time":"2022-09-19T15:49:08-04:00","message":"------------------ Exit Hilco Listener -------------------------"}
+er -------------------------"}

@@ -1,0 +1,9 @@
+<h1>Calculator</h1>
+
+<form action="/evaluate" method="post">
+    <div><textarea name="expression" rows = "5" cols ="80">{{ printf "%s" .Expression }}</textarea></div>
+    <div><br></div>
+    <div><strong>Result: {{ printf "%s" .Result}}</strong></div>
+    <div><br></div>
+    <div><input  type="submit" value="Evaluate"></div>
+    </form.
