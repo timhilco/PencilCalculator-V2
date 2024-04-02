@@ -112,6 +112,8 @@ func evaluateLocal(ctx context.Context, expression string, r *http.Request) penc
 	inputData["Employee"] = empJson
 
 	ctx = context.WithValue(ctx, pencilCalculator.InputDataContextKey{}, inputData)
+	statementMap := make(map[string]*pencilCalculator.Statement)
+	ctx = context.WithValue(ctx, pencilCalculator.StatementMapContextKey{}, statementMap)
 	pencilResult := pencilCalculator.Evaluate(ctx, nil, expression)
 	hlog.FromRequest(r).Info().
 		Str("method", r.Method).

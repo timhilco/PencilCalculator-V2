@@ -334,7 +334,7 @@ func TestServerStartup(t *testing.T) {
 		}
 	*/
 	ctx := context.Background()
-	logger := logger.NewMultiWithFile(logger.LOG_LEVEL_INFO, false, "./logs/serverLog.txt", true)
+	logger := logger.NewMultiWithFile(logger.LOG_LEVEL_INFO, false, "../logs/serverLog.txt", true)
 	options := api.ServerOptions{
 		Logger:            logger,
 		ServerHostName:    "localhost",
