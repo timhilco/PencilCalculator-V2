@@ -39,7 +39,7 @@ func (p *HilcoPencilStatementListener) Result() PencilResult {
 func (p *HilcoPencilStatementListener) EnterProgram(ctx *parser.ProgramContext) {
 	loggingLevel := p.processingContext.Value(LoggingLevelContextKey{})
 	loggingLevel2, _ := loggingLevel.(int)
-	p.logger = logger.NewMultiWithFile(loggingLevel2, false, "./logs/hilcoPencilStatementListener.txt", true)
+	p.logger = logger.NewMultiWithFile(loggingLevel2, false, "../logs/hilcoPencilStatementListener.txt", true)
 	p.logger.Debug().Msg("EnterProgram")
 	p.statementMap = make(map[string]*Statement, 0)
 }

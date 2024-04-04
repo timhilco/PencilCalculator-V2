@@ -9,8 +9,10 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "main.go"
-        }
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+
 
     ]
 }

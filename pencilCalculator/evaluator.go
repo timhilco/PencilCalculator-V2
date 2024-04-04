@@ -49,7 +49,7 @@ func EvaluateProgram(ctx context.Context, program string) map[string]*Statement 
 	loggingLevel := ctx.Value(LoggingLevelContextKey{})
 	loggingLevel2, _ := loggingLevel.(int)
 
-	logger := logger.NewMultiWithFile(loggingLevel2, false, "./logs/evaluateProgram.txt", true)
+	logger := logger.NewMultiWithFile(loggingLevel2, false, "../logs/evaluateProgram.txt", true)
 
 	// Create the Lexer
 	lexer := parser.NewHilcoPencilGrammarLexer(is)
